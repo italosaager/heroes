@@ -1,0 +1,71 @@
+.editAbility {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    background: rgba(0, 0, 0, 0.3);
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100vw;
+    z-index: 1000;
+}
+
+.editAbilityContent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: white;
+    padding: 0 20px 20px 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 300px;
+}
+
+.editAbilityContent h2 {
+    color: orange;
+    text-decoration: underline;
+}
+
+.editAbilityContent input, .editAbilityContent select {
+    width: 250px;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    align-self: center;
+    margin-bottom: 10px;
+}
+
+.editAbilityContent select {
+    width: 270px;
+}
+
+.editAbilityContent button:disabled {
+    background-color: #ccc;
+}
+
+.editAbilityContent .saveBtn {
+    background-color: rgb(207, 135, 0);
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    cursor: pointer;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+.editAbilityContent .saveBtn:hover {
+    background-color: orange;
+}
+.editAbilityContent .closeBtn {
+    background-color: darkred;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.editAbilityContent .closeBtn:hover {
+    background-color: red;
+} 

@@ -1,0 +1,95 @@
+.containerAbility {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+}
+
+
+.containerAbility table {
+    width: 50%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    align-self: center;
+}
+
+.containerAbility thead {
+    background-color: #f2f2f2;
+}
+
+.containerAbility thead th {
+    padding: 12px;
+    font-weight: bold;
+    color: #333;
+    border-bottom: 2px solid #ccc;
+    text-transform: uppercase;
+}
+
+.containerAbility tbody tr {
+    border-bottom: 1px solid #ccc;
+}
+
+.containerAbility tbody td {
+    padding: 12px;
+    text-align: center;
+    color: #555;
+}
+
+.containerAbility tbody tr:nth-child(odd) {
+    background-color: #f9f9f9;
+}
+
+.containerAbility tbody tr:nth-child(even) {
+    background-color: #fff;
+}
+
+
+.containerAbility tbody tr:hover {
+    background-color: #f1f1f1;
+    cursor: pointer;
+}
+
+.containerAbility td,
+.containerAbility th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+.containerAbility .registerAbility {
+    display: flex;
+    align-self: center;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.containerAbility .actions {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+.containerAbility .actions .edit-icon {
+    cursor: pointer;
+    color: orange;
+    transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.containerAbility .actions .delete-icon {
+    cursor: pointer;
+    color: red;
+    transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.containerAbility .actions .edit-icon:hover {
+    color: darkorange;
+    transform: scale(1.2);
+}
+
+.containerAbility .actions .delete-icon:hover {
+    color: darkred;
+    transform: scale(1.2);
+}
